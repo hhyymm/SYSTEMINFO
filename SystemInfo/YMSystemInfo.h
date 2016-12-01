@@ -43,9 +43,11 @@
 //12.ssid信息
 - (id)fetchSSIDInfo;
 
-//13.mac ssid
+/***  13. 路由器BSSID (没连上WiFi则返回@“”)  */
 - (NSString*)bssid;
 
-//14.WiFi名称
+/***   14. 路由器SSID (没连上WiFi则返回@“”)  */
 - (NSString*)ssid;
+
+
 @end
